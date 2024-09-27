@@ -17,7 +17,17 @@
         "command": "typed-hello-world.helloWorld",
         "title": "Hello World"
       }
-    ]
+    ],
+    "configuration": {
+      "title": "Typed Hello World",
+      "properties": {
+        "typed-hello-world.message": {
+          "type": "string",
+          "default": "Hello World",
+          "description": "The message to display in the Hello World notification"
+        }
+      }
+    }
   },
   "scripts": {
     "vscode:prepublish": "pnpm run package",
