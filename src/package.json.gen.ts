@@ -1,4 +1,8 @@
-{
+/**
+* @generated
+*/
+
+export default {
   "name": "typed-hello-world",
   "displayName": "typed-hello-world",
   "description": "",
@@ -42,7 +46,7 @@
     "check-types": "tsc --noEmit",
     "lint": "eslint src",
     "test": "vscode-test",
-    "gen:packageJson": "node ./scripts/package-json2ts.mjs"
+    "gen:packageJson": "node ./scripts/packageJson2ts.mjs"
   },
   "devDependencies": {
     "@types/vscode": "^1.93.0",
@@ -58,4 +62,4 @@
     "@vscode/test-electron": "^2.4.1"
   },
   "packageManager": "pnpm@9.7.0+sha512.dc09430156b427f5ecfc79888899e1c39d2d690f004be70e05230b72cb173d96839587545d09429b55ac3c429c801b4dc3c0e002f653830a420fa2dd4e3cf9cf"
-}
+} as const;
