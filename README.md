@@ -4,4 +4,4 @@
 
 [VSCode Meetup #31](https://vscode.connpass.com/event/328219/) でLTを行いました。
 
-発表資料: https://speakerdeck.com/mazrean/vecode-meetup-31
+発表資料: [https://speakerdeck.com/mazrean/vecode-meetup-31](https://speakerdeck.com/mazrean/vscode-meetup-31)
